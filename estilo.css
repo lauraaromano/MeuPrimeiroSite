@@ -1,28 +1,41 @@
-h1,h2{
-    line-height: 3;
+
+body{
+    background-color: gray;
 }
 
-p{
-    line-height: 1.5;
-    font-size: 1.2em;
+header{
+    background-color: blue;
+    padding: 3%;
 }
-ul li{ 
-    line-height: 1.5;
-    font-size: 1.2em;
+
+.logo{
+    background-color: yellow;
 }
-title{ 
-    line-height: 3;
-    text-align: center;
-    font-weight: bold;
+
+nav{
+    background-color: aquamarine;
 }
-h1{
-    font-size: 2em;
-}
-h2{
-    font-size: 1.5em;
-}
+
 main{
     background-color: green;
     width: 80%;
-    margin-left: ;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section{
+    background-color: pink;
+}
+
+footer{
+    background-color: purple;
+    padding: 3%;
+
+}
+.cabecalho{
+    padding: 3%;
+}
+
+.rodape{
+    padding: 3%;
 }
