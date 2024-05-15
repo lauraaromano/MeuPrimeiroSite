@@ -54,8 +54,22 @@ img {
 
 h1{
     text-align: center;
+    color: aliceblue;
 }
 
 .logo img{
-    width: 35%;
+    width: 18%;
+    height: auto;
+}
+
+h3{
+    color:aliceblue
+}
+
+p{
+    color: aliceblue;
+}
+
+h2{
+    color:aliceblue
 }
