@@ -6,12 +6,17 @@ body{
 }
 
 header{
-    background-color: blue;
+   
     padding: 3%;
 }
 
 .logo{
-    background-color: yellow;
+    text-align: center;
+    padding: 2px;
+    text-decoration: solid black;
+   font-size: 120px;
+ 
+  
 }
 
 nav{
@@ -23,12 +28,13 @@ main{
     width: 80%;
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
 }
 
 section{
    
     text-align: center
-    
+   
 }
 
 footer{
@@ -54,7 +60,9 @@ img {
 
 h1{
     text-align: center;
-    color: aliceblue;
+    color: rgb(129, 9, 9);
+    border: 6px solid rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.349);
 }
 
 .logo img{
@@ -64,6 +72,11 @@ h1{
 
 h3{
     color:aliceblue
+    text-align: center;
+    color: rgb(129, 9, 9);
+    border: 6px solid rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.349);
+
 }
 
 p{
@@ -72,4 +85,8 @@ p{
 
 h2{
     color:aliceblue
+    text-align: center;
+    color: rgb(129, 9, 9);
+    border: 6px solid rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.349);
 }
