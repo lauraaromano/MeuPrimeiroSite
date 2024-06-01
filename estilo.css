@@ -68,7 +68,7 @@ h1{
 }
 
 .logo img{
-    width: 60%;
+    width: 80%;
     height: auto;
     display: block;
     margin: 0 auto;
@@ -176,13 +176,13 @@ nav ul{
 }
 
 nav ul li{
-    margin: 0 10px;
+    margin: 30 10px;
 }
 
 nav ul li a{
     color: rgb(0, 0, 0);
     text-decoration: none;
-    padding: 23px 60px;
+    padding: 30px 60px;
     display: block;
 
 }
