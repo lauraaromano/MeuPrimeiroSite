@@ -1,16 +1,106 @@
-
 body{
-    background-image: url(../img/fundo.png);
+    background-color: #000;    
+    background-image: url('../img/fundo.png');
     background-repeat: repeat;
-    background-size: contain;
+    
 }
-
 header{
-    display: flex;s
+    padding: 3%;
+    display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.cabecalho{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #491111;
+    padding: 10px 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    box-sizing: border-box;
+}
+
+.rodape{
     padding: 3%;
 }
+
+
+.titulos{
+    line-height: 3;
+    text-align: center;
+    font-weight: bold;
+    font-size: 2.5em;
+    background-color: #4717178a;
+    color: #180808;
+}
+
+h1{
+    text-align: center;
+    color: rgb(129, 9, 9);
+    border: 6px solid rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.349);
+}
+
+h2{
+    text-align: center;
+    color: rgb(129, 9, 9);
+    border: 6px solid rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.349);
+    font-size: 1.9em;
+    background-color: #4717178a;
+    color: #180808;
+
+}
+
+h3{
+    color: rgb(221, 175, 175);
+    text-align: center;
+    color: rgb(129, 9, 9);
+    border: 6px solid rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.349);
+    font-size: 1.9em;
+    background-color: #4717178a;
+    color: #180808;
+
+}
+
+p{
+    color: rgb(37, 25, 25);
+    background-color: rgba(0, 0, 0, 0.404);
+    line-height: 1.5;
+    font-size: 1.2em;
+    text-align: justify;
+
+}
+
+table{
+    color: rgb(221, 175, 175);
+    text-align: center;
+    border: 6px solid rgb(0, 0, 0);
+    background-color: rgba(3, 3, 3, 0.349);
+    justify-content: space-between
+    line-height: 1,5;
+    font-size: 1.1em;
+    text-align: justify;
+}
+
+.tabela2{
+    font-size: 1.7em;
+    height: 150px;
+    width: 200px;
+   
+}
+
+
+
+
+
+
+
 
 .logo{
     
@@ -22,7 +112,7 @@ header{
 }
 
 nav{
-    background-color: rgb(129, 9, 9);
+    background-color: rgb(167, 73, 73);
 }
 
 main{
@@ -44,10 +134,7 @@ footer{
     padding: 3%;
 
 }
-.cabecalho{
-    padding: 3%;
-    
-}
+
 
 .rodape{
     padding: 3%;
@@ -60,12 +147,6 @@ img {
     width: 150px;
   }
 
-h1{
-    text-align: center;
-    color: rgb(129, 9, 9);
-    border: 6px solid rgb(0, 0, 0);
-    background-color: rgba(0, 0, 0, 0.349);
-}
 
 .logo img{
     width: 80%;
@@ -80,53 +161,14 @@ h1{
     
 }
 
-h3{
-    color:rgb(0, 0, 0)
-    text-align: center;
-    border: 6px solid rgb(0, 0, 0);
-    background-color: rgba(95, 38, 38, 0.349);
-    font-size: 1.7em;
 
-}
 
-p{
-    color: rgb(221, 175, 175);
-    text-align: center;
-    background-color: rgba(0, 0, 0, 0.404);
-}
 
-h2{
-    color: rgb(221, 175, 175);
-    text-align: center;
-    text-align: center;
-    color: rgb(129, 9, 9);
-    border: 6px solid rgb(0, 0, 0);
-    background-color: rgba(0, 0, 0, 0.349);
-    font-size: 1.9em;
-    background-color: #4717178a;
-    color: #180808;
-}
 
-table{
-    color: rgb(221, 175, 175);
-    text-align: center;
-    border: 6px solid rgb(0, 0, 0);
-    background-color: rgba(3, 3, 3, 0.349);
-    justify-content: space-between
-    line-height: 1,5;
-    font-size: 1.1em;
-    text-align: justify;
-}
 
-.titulos{
-    line-height: 1;
-    text-align: center;
-    font-weight: bold;
-    font-size: 2.5em;
-    background-color: #4717178a;
-    color: #180808;
-    
-}
+
+
+
 .caixa-imagem{
     text-align: center;
     margin-top: 1%;
@@ -150,12 +192,7 @@ ul{
     text-align: center;
 }
 
-.tabela2{
-    font-size: 1.7em;
-    height: 150px;
-    width: 200px;
-   
-}
+
 
 .elencotext{
     font-size: 1em;
@@ -168,32 +205,307 @@ ul{
 }
 
 
-nav ul{
+
+
+
+nav ul {
     list-style: none;
-    margin: 20;
-    padding: 40;
+    margin: 0;
+    padding: 0;
     display: flex;
 }
 
-nav ul li{
-    margin: 30 10px;
+
+nav ul li {
+    margin: 0 10px;
 }
 
-nav ul li a{
-    color: rgb(0, 0, 0);
+
+nav ul li a {
+    color: white;
     text-decoration: none;
-    padding: 30px 60px;
+    padding: 10px 15px;
     display: block;
-
 }
 
-nav ul li:hover{
+nav ul li a:hover {
+    background-color: #555;
     border-radius: 5px;
-    background-color: rgb(221, 17, 17);
 }
 
-#menu-toggle{
+.menu-icon {
+    display: none;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+}
+
+#menu-toggle {
     display: none;
 }
+
+@media (max-width: 768px) {
+    .menu-icon {
+        display: block;
+        padding-right: 10px;
+    }
+
+    nav ul {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        background-color: #000;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        z-index: 1000;
+        padding: 0;
+    }
+
+    #menu-toggle:checked + .menu-icon + ul {
+        display: flex;
+    }
+
+    nav ul li {
+        text-align: center;
+        margin: 0;
+    }
+
+    nav ul li a {
+        padding: 15px 0;
+    }
     
+    nav ul li label {
+        width: 100%;
+        display: block;
+    }
+}
+
+
+
+
+main{
+    margin-top: 70px;
+    padding: 20px;
+    
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+section{
+    padding: 20px;
+}
+footer{
+    /
+    padding: 3%;
+}
+
+.logo img {
+    
+    max-width: 100%; 
+    height: 50px;
+}
+
+
+h1,h2,p,li,figcaption{
+    color: #fff;
+}
+
+.caixa-imagem {
+    text-align: center;
+    margin-top: 1%;    
+}
+
+figure {
+    text-align: center;
+    display: inline-block;    
+}
+
+figure img {
+    display: block;
+    margin: 0 auto;    
+    box-shadow: 0px 4px 8px rgba(241, 4, 4, 0.7);
+    max-width: 100%; 
+    height: auto;
+}
+
+figure figcaption{
+    margin: 1.0em;    
+    text-align: center;
+    color: rgb(255, 0, 0);body{
+        background-color: #000;    
+        background-image: url('../img/fundo.jpg');
+        background-repeat: no-repeat;
+        
+    }
+    header{
+        padding: 3%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .cabecalho{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #333;
+        padding: 10px 20px;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 1000;
+        box-sizing: border-box;
+    }
+    
+    .rodape{
+        padding: 3%;
+    }
+    
+    
+    .titulos{
+        line-height: 3;
+        text-align: center;
+        font-weight: bold;
+    }
+    
+    h1{
+        font-size: 2em;
+    }
+    h2{
+        font-size: 1.5em;
+    }
+    
+    p{
+        line-height: 1.5;
+        font-size: 1.2em;
+        text-align: justify;
+    }
+    
+    nav ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+    }
+    
+   
+    nav ul li {
+        margin: 0 10px;
+    }
+    
+   
+    nav ul li a {
+        color: white;
+        text-decoration: none;
+        padding: 10px 15px;
+        display: block;
+    }
+    
+    nav ul li a:hover {
+        background-color: #555;
+        border-radius: 5px;
+    }
+    
+    .menu-icon {
+        display: none;
+        font-size: 30px;
+        color: white;
+        cursor: pointer;
+    }
+    
+    #menu-toggle {
+        display: none;
+    }
+    
+    @media (max-width: 768px) {
+        .menu-icon {
+            display: block;
+            padding-right: 10px;
+        }
+    
+        nav ul {
+            display: none;
+            flex-direction: column;
+            width: 100%;
+            background-color: #000;
+            position: absolute;
+            top: 60px;
+            left: 0;
+            z-index: 1000;
+            padding: 0;
+        }
+    
+        #menu-toggle:checked + .menu-icon + ul {
+            display: flex;
+        }
+    
+        nav ul li {
+            text-align: center;
+            margin: 0;
+        }
+    
+        nav ul li a {
+            padding: 15px 0;
+        }
+        
+        nav ul li label {
+            width: 100%;
+            display: block;
+        }
+    }
+    
+    
+    
+    
+    main{
+        margin-top: 70px;
+        padding: 20px;
+        
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    section{
+        padding: 20px;
+    }
+    footer{
+       
+        padding: 3%;
+    }
+    
+    .logo img {
+        
+        max-width: 100%; /
+        height: 50px;
+    }
+    
+    
+    h1,h2,p,li,figcaption{
+        color: #fff;
+    }
+    
+    .caixa-imagem {
+        text-align: center;
+        margin-top: 1%;    
+    }
+    
+    figure {
+        text-align: center;
+        display: inline-block;    
+    }
+    
+    figure img {
+        display: block;
+        margin: 0 auto;    
+        box-shadow: 0px 4px 8px rgba(241, 4, 4, 0.7);
+        max-width: 100%;
+        height: auto;
+    }
+    
+    figure figcaption{
+        margin: 1.0em;    
+        text-align: center;
+        color: rgb(0, 0, 0);
+    }
 
