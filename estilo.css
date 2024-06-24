@@ -92,12 +92,14 @@ table{
     font-size: 1.7em;
     height: 150px;
     width: 200px;
-   
+    text-align: center;
 }
 
 
 
-
+.P2{
+    color: rgb(250, 168, 168);
+}
 
 
 
@@ -229,7 +231,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    background-color: #555;
+    background-color: rgb(71, 16, 16);
     border-radius: 5px;
 }
 
@@ -307,8 +309,8 @@ footer{
 }
 
 
-h1,h2,p,li,figcaption{
-    color: #fff;
+h1,h2,li,figcaption{
+    color: rgb(0, 0, 0);
 }
 
 .caixa-imagem {
